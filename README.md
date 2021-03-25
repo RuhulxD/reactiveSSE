@@ -39,3 +39,34 @@ This is an SSE server designed to push the event in a certain interval.
             <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"> ................. </html>
 
 
+
+# CPU-THREAD-MEMORY- usage.
+used `visualvm` to measure the stat.
+
+# Initial stat: No load.
+![initial](benchmark-2/Screenshot%20from%202021-03-25%2018-09-53.png)
+
+# Initial stat: No load. Threads-1
+![initial](benchmark-2/Screenshot%20from%202021-03-25%2018-10-04.png)
+
+# 100 individual SSE client connected concurrent.
+![initial](benchmark-2/Screenshot%20from%202021-03-25%2018-11-29.png)
+
+# 100 individual Rest client concurrent
+![initial](benchmark-2/Screenshot%20from%202021-03-25%2018-12-57.png)
+
+# 100 SSE & 10 individual Rest client concurrent - Jmeter
+![initial](benchmark-2/Screenshot%20from%202021-03-25%2018-13-06.png)
+
+# 100 SSE & 10 individual Rest client concurrent - App stat
+![initial](benchmark-2/Screenshot%20from%202021-03-25%2018-13-59.png)
+
+#100 SSE & 10 individual Rest client concurrent - APP Threads
+![initial](benchmark-2/Screenshot%20from%202021-03-25%2018-14-07.png)
+
+#100 SSE & 10 individual Rest client concurrent thread ENDED - APP stat
+![initial](benchmark-2/Screenshot%20from%202021-03-25%2018-14-36.png)
+
+
+
+
