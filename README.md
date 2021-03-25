@@ -18,10 +18,10 @@ This is an SSE server designed to push the event in a certain interval.
 ## EndPoints:
 
 1. ### Request: SSE end point
-    * ### Method 
-        GET
+    * ### Method
+            GET
     * ### path
-        /public/ping/subscribe
+            /public/ping/subscribe
     ### Response
     * Media type: `Content-Type: text/event-stream;charset=UTF-8`
     
@@ -30,9 +30,9 @@ This is an SSE server designed to push the event in a certain interval.
 
 2. ### Request: REST endpoint(A large html file)
     * ### Method
-      GET
+            GET
     * ### path
-      /public/file
+            /public/file
    ### Response
     * Media type: `Content-Type: text/html;charset=UTF-8`
 
