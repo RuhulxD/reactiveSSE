@@ -13,7 +13,7 @@ This is an SSE server designed to push the event in a certain interval.
 ##Run:
 #####Note: No additional parameter required right now 
 
-    java -jar netty-0.0.1-SNAPSHOT.jar
+    java -jar build/libs/netty-0.0.1-SNAPSHOT.jar
 
 ##EndPoints:
 
